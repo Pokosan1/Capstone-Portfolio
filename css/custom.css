@@ -1,0 +1,49 @@
+.footer__content {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+ul.social__media {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+ul.social__media li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+ul.social__media li a {
+  color: #fff;
+  font-size: 25px;
+}
+
+ul.social__media li {
+  text-align: center;
+  height: 45px;
+  width: 45px;
+  border-radius: 50px;
+  background-color: rgb(212, 209, 209);
+  line-height: 40px;
+  border: 2px solid #bde5f5;
+
+}
+ 
+@media (max-width: 768px) {
+  .row { 
+    max-width: 100%;
+    margin: auto;
+  }
+ }
+ 
+
+
+
+
+
+
+

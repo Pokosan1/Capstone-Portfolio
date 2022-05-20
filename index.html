@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <style>
+      .banner-image{
+        background-image: url('img/plants.jpg');
+        background-size: cover;
+      }
+    </style>  
+    
+    <title>Sandee Uyehara Portfolio</title>
+  </head>
+
+    <body>
+      <!-- Navbar -->
+      <nav class='navbar fixed-top navbar-expand-lg navbar-light p-md-d'>
+        <div class='container'>
+          <a href="#home" class="navbar-brand">sYu</a>
+          <button type="button" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mx-auto"></div>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#about" class="nav-link text">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link text">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link text">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+        </nav>
+
+      <!-- Banner Image -->
+      <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center" id='home'>
+        <div class="content text-center">
+          <h2 class="display-1 text-white text-uppercase mb-0 pt-md-5 pt-5">Sandee Uyehara</h2>
+          <hr>
+          <h4 class="text-white text-uppercase mb-4 font-weight-bold white-text"><strong>Front End Web Developer</strong></h4>
+        </div>
+      </div>
+  
+      <div class="container my-5 pt-4">
+        <!-- About-->
+        <div class="row" id="about">
+          <div class="col-md p-5">
+            <h2 class="mb-4 text-center my-4 text-muted">About Me</h2>
+            <img class="mb-3 pt-5 mx-auto d-none d-sm-block" style="max-width: 30%" src="img/about.jpg" alt="Computer">
+              <p>Hello! My name is Sandee. I am a recent graduate of the Front End Web Development Techdegree Program for Treehouse.</p>
+              <p>I learned how to build interactive websites and powerful web applications with HTML, CSS and JavaScript. I enjoy working in the tech field and and constantly developing new skills. I am passionate about aesthetics and UI designs.</p>
+          </div>
+        </div>  
+      </div>  
+
+        <div class="container my-5 d-grid gap-5" id="projects">
+
+          <!-- Github Repos  -->
+          <h2 class="display-5 text-center my-5 text-muted">Projects</h2>
+
+          <div class="row gap-5">
+            <div class="col-md p-5 border">
+              <h3 class="mb-4 text-center my-4">WebApp Dashboard</h3>
+              <a href="https://pokosan1.github.io/web_app_dashboard_v3.2/">
+                <img class="mb-4 mx-auto d-block" style="max-width: 50%" src="img/web-app-icon.jpg" alt="WebApp Icon">
+              </a>
+              <p>An interactive dashboard for a web application which uses advanced web techniques including SVG graphics and JavaScript programming.</p>
+              <p>This project involves creating tables, charts, graphics and other user interface components in a manner that promotes interactivity and usability.</p>
+            </div>
+
+            <div class="col-md p-5 border">
+              <h3 class="mb-4 text-center my-4">Game</h3>
+              <a href="https://pokosan1.github.io/Game-Show-App/">
+                <img class="mb-4 mx-auto d-block" style="max-width: 50%" src="img/game-icon.jpg" alt="Game Icon">
+              </a>
+              <p>A "Wheel of Success" guessing game that uses JavaScript.</p>
+              <p>Players will try to guess by entering different letters into the program.</p>
+            </div>
+          </div>
+
+          <div class="row gap-5">
+            <div class="col-md p-5 border">
+              <h3 class="mb-4 text-center my-4">Employee API</h3>
+              <a href="https://pokosan1.github.io/Employee-Directory/">
+                <img class="mb-4 mx-auto d-block" style="max-width: 50%" src="img/api-icon.jpg" alt="Api Icon">
+              </a>
+              <p>An employee directory website created by using JavaScript by communicating with a third party API.</p>
+            </div>
+
+            <div class="col-md p-5 border">
+              <h3 class="mb-4 text-center my-4">Photo Gallery</h3>
+              <a href="https://pokosan1.github.io/photo_gallery_v5/">
+                <img class="mb-4 mx-auto d-block" style="max-width: 50%" src="img/gallery-icon.jpg" alt="Photo Gallery Icon">
+              </a>
+              <p>Interactive image gallery using HTML, CSS and JavaScript. The image gallery is interactive with searchable gallery of photos.</p>
+            </div>
+          </div>
+          <!-- /Github Repos -->
+
+          <div class="row py-4">
+            <div class="col-md col-xl-5">
+                <h2 class="text-muted mb-4" id="contact">Get in touch</h2>
+                <p>I enjoy working and talking with creative individuals. 
+                Let's work together and inspire each other with our own uniqueness!</p>
+                <p>Let's talk!</p>
+            </div>
+            
+
+            <div class="col-md col-xl-5 ms-auto">
+              <h3 class='text-muted my-3'>Send me an email!</h3>
+              <div class="input-group">
+
+                <input type="text" class="form-control" placeholder="Email">
+                <span class="input-group-btn">
+                  <a class="btn btn-secondary email" role="button" href="mailto:sandee.uyehara@gmail.com">SUBMIT</a>
+                </span>
+              </div>
+            </div>
+          </div>  
+        </div>
+
+        <div>
+          <section class="footer">
+            <div class="container">
+              <div class="footer__content">
+                <ul class="social__media">
+                  <li><a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                  <li><a href="https://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="https://github.com"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js " integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB " crossorigin=""></script> 
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js " integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13 " crossorigin=""></script>
+      <script src="app.js"></script>
+
+    </body>
+</html>
+
+
+
